@@ -10,7 +10,6 @@ public enum Authorities {
         for(int index = 0; index < values().length; index++) {
             names[index] = values()[index].name();
         }
-
         return names;
     }
 
