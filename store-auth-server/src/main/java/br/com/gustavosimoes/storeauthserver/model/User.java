@@ -6,7 +6,6 @@ import java.io.Serializable;
 import java.util.Set;
 
 import javax.persistence.*;
-import javax.validation.constraints.Email;
 import javax.validation.constraints.Size;
 
 @Data
@@ -22,7 +21,6 @@ public class User implements Serializable {
     @Size(max = 500)
     private String password;
 
-    @Email
     @Size(max = 50)
     private String email;
 
